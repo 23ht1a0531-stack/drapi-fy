@@ -9,6 +9,7 @@ interface CartProps {
   onRemoveFromCart: (productId: number) => void
 }
 
+
 export default function Cart({ navigate, cartItems, onUpdateQty, onRemoveFromCart }: CartProps) {
   const [promoCode, setPromoCode] = useState("")
   const [promoApplied, setPromoApplied] = useState(false)
