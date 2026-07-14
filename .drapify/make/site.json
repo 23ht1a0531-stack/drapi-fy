@@ -1,0 +1,10 @@
+{
+  "description": "A premium fashion e-commerce platform offering a seamless shopping experience with curated collections, detailed product views, and streamlined checkout for style-conscious users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
